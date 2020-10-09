@@ -1,4 +1,4 @@
-# Filter Challenges
+# GitHub review box fix
 
 Chrome extension made to provide a fix for the bug in review vomment box in GitHub.
 
