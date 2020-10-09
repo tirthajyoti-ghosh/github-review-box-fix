@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub Review Box Fix",
+  "version": "1.0.0",
+  "description": "Provides a fix to the review comment box bug",
+  "permissions": [
+    "tabs",
+    "https://github.com/*",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "review-box-fix.js"
+      ]
+    }
+  ]
+}
